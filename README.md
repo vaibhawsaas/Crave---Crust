@@ -110,35 +110,6 @@ Visit **`http://localhost:3000`** in your browser.
 
 ---
 
-## 📂 Project Structure
-
-```
-├── public/                 # Static assets (3D textures, dish images, robots.txt)
-│   └── images/             # High-res photography & burger layers
-├── src/
-│   ├── assets/             # Brand illustrations & imagery
-│   ├── components/         # Reusable UI & Feature components
-│   │   ├── BurgerLab.tsx   # 3D interactive customizer
-│   │   ├── BurgerScene.tsx # Three.js canvas & camera scene
-│   │   ├── CartDrawer.tsx  # Slide-out shopping cart
-│   │   ├── MenuBook.tsx    # Flip menu book component
-│   │   └── ui/             # Radix-based accessible design system
-│   ├── hooks/              # Custom React hooks (e.g. use-mobile)
-│   ├── lib/
-│   │   ├── brand.ts        # Business config, contact info & timings
-│   │   ├── catalog.ts      # Menu items, cuisines, categories & offers
-│   │   ├── cart.ts         # Cart store & persistence
-│   │   └── utils.ts        # Class merging and format helpers
-│   ├── routes/             # File-based routes (TanStack Router)
-│   │   ├── 3d-food-lab.tsx # 3D customizer route
-│   │   ├── index.tsx       # Homepage with hero & featured menus
-│   │   ├── product.$slug   # Individual item details
-│   │   └── ...             # Category routes (pizza, burgers, biryani, etc.)
-│   └── styles.css          # Semantic CSS tokens & category themes
-└── vite.config.ts          # Vite & TanStack Router configuration
-```
-
----
 
 ## ⚙️ Customization
 
